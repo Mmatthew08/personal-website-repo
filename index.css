@@ -3,18 +3,23 @@ background-color: black;
 color: aliceblue;
 box-shadow: 0 0 12px;
 position: fixed;
-display: fixed;
-justify-content: space-between;}
+display: flex;
+justify-content: space-between;
+
+}
 #myname{left: 0;}
 .links{right: 0;
 border: 2px solid ;
 background-color: aliceblue;}
-#navlinks {right: 0;
-border-bottom: 1px solid white;}
+
+.links {right: 0;
+border-bottom: 1px solid white;
+display: inline-block;
+text-align: center;}
 
 main{ min-height: 100vh;
 padding: 100px;
-color: rgb(202, 35, 37);
+color: rgba(19, 16, 59, 0.82);
 font-size: 20px;
 box-shadow: 0cm;
 background-color:cadetblue;}
@@ -29,3 +34,5 @@ height:60;}
 footer{bottom: 0;
     right: 230;
 position: absolute;;}
+ 
+body{background-color: rgb(122, 134, 183);}
