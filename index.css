@@ -8,18 +8,19 @@ justify-content: space-between;
 padding: 15px;
 right: 0;
 left: 0;
-
+align-items: center;
 
 }
 #myname{left: 0;}
-.links{right: 0;
-border: 2px solid ;
-background-color: aliceblue;}
+
+
 
 .links {right: 0;
+    
 border-bottom: 1px solid white;
 display: inline-block;
-text-align: center;
+text-align:justify;
+background-color: rgba(170, 122, 122, 0.166);
 }
 
 main{ min-height: 100vh;
